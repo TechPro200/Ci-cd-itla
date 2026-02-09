@@ -18,7 +18,7 @@ jobs:
 
       - name: Notificacion ntfy
         run: |
-          curl -H "Title: Nuevo Push en main" \
+          curl -H "Title: Alerta: Push en main" \
                -H "Priority: 2" \
                -H "Tags: github,devops" \
                -d "Se realizo el push al repositorio correctamente." \
